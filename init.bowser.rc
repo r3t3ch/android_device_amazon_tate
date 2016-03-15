@@ -12,4 +12,7 @@ service atmel_touch /system/bin/atmel_touch.sh
     group root
     oneshot
     seclabel u:r:atmeltouch:s0
+    
+on property:atmel.touch_ready=1
+    insmod /system/lib/modules/atmel_mxt_ts.ko
 
