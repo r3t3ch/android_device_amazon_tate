@@ -52,5 +52,6 @@ RECOVERY_FSTAB_VERSION := 2
 TARGET_OTA_ASSERT_DEVICE := blaze_tablet,bowser,tate
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := /sys/class/backlight/lcd-backlight/brightness
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/platform/omap/omap_temp_sensor.0/temp1_input"
 TW_NO_USB_STORAGE := true
 TW_EXCLUDE_SUPERSU := true
