@@ -16,9 +16,5 @@ done
 
 ./setup-makefiles.sh
 
-# Call up to tate-pvr
-./extract-files-pvr.sh
-
 # Call up to bowser-common
-cd ../bowser-common
 ./extract-files.sh
